@@ -1,0 +1,161 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    }
+body{
+    font-family: 'Lato', sans-serif;
+    color: #666d89;
+}    
+.wrapper{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+
+}
+header .wrapper{
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    height: 95px;
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+    box-sizing: border-box;
+} 
+.logo{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+.logo span{
+    color: #e36861;
+}
+nav{
+    position: relative;
+}
+.blog-navigation ul{
+    display: flex;
+    margin-top: 10px;
+    list-style: none;
+    
+}    
+.main-menu a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.main-menu .active{
+    color: #f06c64;}
+.main-menu a:hover{
+    color: #f06c64;
+}
+.main-menu span{
+    margin: 0 12px;
+    color: #535763;
+}
+.slider{
+    position: relative;
+    height: 600px;
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+    box-sizing: border-box;
+}
+.slider .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 53px;
+    padding-bottom: 58px;
+}
+.left-nav{
+    width: 16px;
+    height: 27px;
+    background-image: url(assets/chev2.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+}
+.right-nav{
+    width: 16px;
+    height: 27px;
+    background-image: url(assets/chev.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.img-vertical{
+    position: relative;
+    right: 7px;
+}
+.img-horizontal{
+    position: relative;
+    left: 5px;
+}
+.left-nav:hover{
+    background-image: url(assets/chev2-hover.png);
+    background-repeat: no-repeat;
+}
+.right-nav:hover{
+    background-image: url(assets/chev-hover.png);
+    background-repeat: no-repeat;
+}
+.service{
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 5px solid #ffffff;
+    background-color: #f2f2f2;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 16px;
+
+}
+.text-service{
+    padding-bottom: 44px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.service-items{
+    display: flex;
+    margin-bottom: 33px;
+}
+.service-item{
+    display: flex;
+}
+h2{
+    padding-bottom: 9px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.service-info{
+    margin-right: 26px;
+}
+.service-info p{
+    width: 218px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+}
+.service-item img{
+    padding-right: 16px;
+    padding-top: 3px;
+}
