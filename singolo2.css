@@ -29,9 +29,9 @@ body{
     justify-content: space-between;
 } 
 .portfolio{
-    background-color: #2d303a;
     padding-top: 60px;
     padding-bottom: 55px;
+    background-color: #2d303a;
     border-bottom: 5px solid #323746;
 }
 .portfolio .wrapper{
@@ -42,9 +42,9 @@ body{
     padding-top: 9px;
 }
 h2{
+    padding-bottom: 18px;
     font-size: 30px;
     font-weight: 900;
-    padding-bottom: 18px;
 }
 .text-portfolio{
     font-size: 18px;
@@ -58,9 +58,9 @@ h2{
     padding: 3px 5px;
     margin-right: 8px;
     font-size: 12px;
+    color: #767e9e;
     letter-spacing: 0.0005em;
     background-color: transparent;
-    color: #767e9e;
     border: 1px solid #767e9e;
     border-radius: 5px;
     cursor: pointer;
@@ -101,8 +101,8 @@ h2{
 .border-circle{
     width: 30px;
     height: 30px;
-    line-height: 30px;
     margin-right: 8px;
+    line-height: 30px;
     border-radius: 50%;
     text-align: center;
     border: 1px solid #767e9e;
