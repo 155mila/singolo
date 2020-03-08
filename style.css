@@ -347,6 +347,9 @@ textarea{
     color: #f0d8d9;
     cursor: pointer;
 }
+.forma-contact button:hover{
+    background-color: #2d303a;
+}
 .icon{
     font-size: 12px;
     line-height: 22px;
