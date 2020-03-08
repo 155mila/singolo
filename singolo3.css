@@ -1,0 +1,149 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    }
+body{
+    font-family: 'Lato', sans-serif;
+    color: #666d89;
+} 
+.wrapper{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+
+}
+h2{
+    padding-bottom: 18px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.forma{
+    padding-top: 56px;
+    padding-bottom: 10px;
+    background-color: #f06c64;
+    color: #f0d8d9;
+    border: 5px solid #ea676b;
+}
+.forma-text{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.forma-contact{
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+}
+.adress{
+    padding-top: 42px;
+    padding-left: 21px;
+}
+.adress h3{
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.adress-text{
+    padding-bottom: 22px;
+    font-size: 12px;
+    line-height: 21px; 
+}
+form{
+    padding-top: 34px;
+    width: 620px;
+}
+input{
+    width: 590px;
+    height: 38px;
+    margin: 8px 0;
+    padding: 0 15px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    color: #f48c8f;
+    
+}
+input::placeholder, textarea::placeholder{
+    color: #f48c8f;
+    font-size: 12px;
+}
+input:focus:invalid,
+textarea:focus:invalid{
+    border:solid 2px #F5192F;
+}
+
+input:focus:valid,
+textarea:focus:valid{
+    border:solid 2px #18E109;
+    background-color:#fff;
+}
+textarea{
+    width: 590px;
+    height: 181px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #d6564f; 
+    resize: none;
+}
+button{
+    width: 120px;
+    height: 38px;
+    margin: 8px 0;
+    padding: 0 15px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    color: #f0d8d9;
+    cursor: pointer;
+}
+.icon{
+    font-size: 12px;
+    line-height: 22px;
+}
+.icon img{
+    padding-right: 9px;
+}
+.icon img:first-child{
+    padding-left: 2px;
+}
+.icon a{
+    text-decoration: none;
+    color: #f0d8d9;
+}
+footer{
+    height: 75px;
+    background-color: #2d303a;
+    
+}
+footer .copyright{
+    font-size: 12px;
+}
+footer .wrapper, .social-icon{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.border-circle{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #767e9e;
+    cursor: pointer;
+}
+.border-circle:hover{
+    background-color: #ffffff;
+}
+footer .border-circle{
+    margin-left: 8px;
+}
